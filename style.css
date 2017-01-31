@@ -1,20 +1,30 @@
 
 body {
 	background-color: #777;
+	width: 100%;
+	margin: auto;
+}
+.container {
+	width: 960px;
+	margin:0 auto;
 }
 
-.header {	
+.header {
+		  text-align: center;	
  		  background-color:#ebebeb;
  		  width:960px;
- 		  margin: auto;
- 		  padding: 20px; 		  
- }
+ 		  height: 95px;
+ 		  margin: 0 auto;
+ 		  margin-top: 20px;
+ 		  
+}
 
- .nav {	
+.nav {
+		  text-align: center;	
  		  background-color:#ebebeb;
  		  width:960px;
- 		  margin: auto; 
- 		  padding: 20px;
+ 		  height: 95px;
+ 		  margin: 0 auto; 
  		  margin-top: 10px;
 
  }
@@ -25,20 +35,25 @@ body {
 		font-size: 18px;
 		font-family: Arial;
 }
+
 .section {
-	display: inline-block;
+	float: left;
 	background-color: #ebebeb;
-	width: 480px;
-	margin-left: 130px;
+	width: 495px;
+	height: 290px;
 	margin-top: 20px;
-	height: 200px;
-	padding:25px;	
+		
+}
+
+.clearfix {
+	clear: both;
 }
 .article {
+	
 	background-color: #777;
 	width: 400px;
 	margin: auto;
-	height: 150px
+	height: 190px
 }
 h4 {
 	color:#ebebeb;
@@ -57,31 +72,32 @@ h3 {
 .headings {
 	background-color: #ebebeb;
 	width: 350px;
-	height:30px;
+	height:50px;
 	margin: auto;
 }
 .p {
 	background-color: #ebebeb;
 	width: 350px;
-	height: 30px;
+	height: 50px;
 	margin: auto;
 }
 
 .aside {
 	float: right;
-	background-color: #ebebeb;
-	width: 400px;
 	margin-top: 20px;
-	height: 200px;
-	padding: 25px;
-	margin-right: 130px;
-}
+	width: 400px;
+	height: 290px;
+	background-color: #ebebeb;
+	
+	}
 
 .footer {
 	background-color:#ebebeb;
- 		  width:960px;
- 		  margin: auto; 
- 		  padding: 20px;
- 		  margin-top: 20px;
+ 	width:960px;
+ 	height: 95px;
+ 	margin: auto; 
+ 	margin-top: 20px;
+ 	margin-bottom: 100px;
+ 	overflow: auto;
 }
 	
